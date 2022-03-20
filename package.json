@@ -1,14 +1,18 @@
 {
+  "homepage": "https://mendeczka.github.io/react-app-router/",
   "name": "second-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
